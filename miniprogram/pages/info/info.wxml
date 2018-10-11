@@ -1,0 +1,12 @@
+<van-cell-group>
+  <van-cell title="title" value="{{product.title}}" />
+  <van-cell title="price" value="{{product.price}}" />
+  <van-cell title="tag" value="{{product.tags}}" />
+  <van-cell title="color" value="{{product.color}}" border="{{ false }}" />
+</van-cell-group>
+<van-button type="primary"  bindtap='addtag'>添加 tag </van-button>
+<van-button type="warning" bindtap='deltag'>删除 tag</van-button>
+<van-button type="danger" bindtap='update'>update</van-button>
+<van-button type="primary" bindtap='batchUpdate'>batch update</van-button>
+<van-button type="danger" bindtap='delete'>delete</van-button>
+<van-button type="danger" bindtap='batchDelete'>batchDelete</van-button>
