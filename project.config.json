@@ -11,7 +11,7 @@
 	},
 	"appid": "wxd1ca70db507085dd",
 	"projectname": "CloudDatabase",
-	"libVersion": "2.2.5",
+	"libVersion": "2.4.0",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 5,
 			"list": [
 				{
 					"id": -1,
@@ -60,6 +60,11 @@
 					"name": "info",
 					"pathName": "pages/info/info",
 					"query": "id=W71Wu92AWotka_oN"
+				},
+				{
+					"id": -1,
+					"name": "regex",
+					"pathName": "pages/regex/regex"
 				}
 			]
 		}

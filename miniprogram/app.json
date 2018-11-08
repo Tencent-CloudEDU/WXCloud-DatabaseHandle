@@ -1,11 +1,11 @@
 {
-  "cloud": true,
   "pages": [
     "pages/home/home",
     "pages/index/index",
     "pages/add/add",
     "pages/complex/complex",
-    "pages/info/info"
+    "pages/info/info",
+    "pages/regex/regex"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
